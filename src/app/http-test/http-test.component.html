@@ -1,3 +1,13 @@
 <p>
+    {{ tulos }}
+</p>
+
+<p *ngFor="let tulos of tulokset">
+    <img [src]="kuvaosoite + tulos.filename">
+</p>
+
+
+
+<p *ngFor="let tulos of autotulokset">
   {{ tulos }}
 </p>
